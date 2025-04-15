@@ -1,0 +1,1 @@
+luego de utilizar el comando merge la rama  opción 2 se junta con loa rama main
