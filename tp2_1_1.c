@@ -1,20 +1,21 @@
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 #define N 20
 
-int main () {
+int main()
+{
 
-int i;
-double vt[N];
-for(i = 0;i<N; i++) {
+    int i;
+    double vt[N];
 
-vt[i]=1+rand()%100;
+    
+    for (i = 0; i < N; i++)
+    {
 
-printf("\n %d - %f  ",i+1, vt[i]);
+        vt[i] = 1 + rand() % 100;
 
+        printf("\n %d - %f  ", i + 1, vt[i]);
+    }
+    getchar();
+    return 0;
 }
-
-return 0;
-
-}
-
